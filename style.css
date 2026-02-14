@@ -1,0 +1,221 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #fffaf0;   /* Light Cream */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: #5c4033;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.header nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f5e6d3;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #5c4033;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero button {
+    background-color: #a67c52;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.hero button:hover {
+    background-color: #8b5e3c;
+    transform: translateY(-2px);
+}
+
+/* Learn Section */
+.learn-section {
+    padding: 60px 40px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.learn-section h2 {
+    color: #5c4033;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.learn-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.learn-card {
+    background-color: #fdf4e3;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.learn-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.learn-card h3 {
+    color: #a67c52;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.learn-card p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Why Section */
+.why-section {
+    padding: 60px 40px;
+    background-color: #f8efe4;
+    text-align: center;
+}
+
+.why-section h2 {
+    color: #5c4033;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.why-paragraph {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+    color: #444;
+    line-height: 1.8;
+}
+
+.why-points {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.point {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.point h4 {
+    color: #a67c52;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.point p {
+    color: #666;
+    font-size: 15px;
+}
+
+/* Footer */
+.footer {
+    background-color: #5c4033;
+    color: white;
+    padding: 40px 20px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto 30px;
+}
+
+.footer-section {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-section p, 
+.footer-section a {
+    color: #ddd;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #ffd8a8;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: #ccc;
+    font-size: 14px;
+}
